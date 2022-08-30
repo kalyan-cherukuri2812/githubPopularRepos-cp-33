@@ -1,0 +1,29 @@
+.bg-container {
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-heading {
+  color: #0f172a;
+  font-family: lobster;
+  margin: 20px;
+}
+.lfi-ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0px;
+}
+
+.lfi-ul-2 {
+  padding: 0px;
+
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}

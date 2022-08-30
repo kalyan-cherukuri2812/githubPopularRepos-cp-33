@@ -1,0 +1,19 @@
+.lfi-list {
+  list-style-type: none;
+  margin: 10px;
+  font-family: roboto;
+}
+.lfi-btn {
+  padding: 3px;
+  padding-left: 9px;
+  padding-right: 10px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: 550;
+  background-color: transparent;
+  border: 0px;
+}
+.lfi-border {
+  border: 2px solid #0284c7;
+  color: #0284c7;
+}

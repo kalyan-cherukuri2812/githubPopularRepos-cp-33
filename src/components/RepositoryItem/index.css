@@ -1,0 +1,40 @@
+.repos-li {
+  width: 100%;
+
+  list-style-type: none;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #f8f8ff;
+}
+.repos-img {
+  width: 25%;
+}
+.name {
+  font-family: roboto;
+  font-weight: 600;
+  font-size: 23px;
+  color: #e73959;
+}
+.stars-div {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+}
+.stars-img {
+  width: 18px;
+  height: 18px;
+  margin: 10px;
+}
+.start-p {
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .repos-li {
+    width: 30%;
+  }
+}
